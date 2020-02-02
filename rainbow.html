@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .rainbow {
+        /*border: 1px solid black;*/
+        height: 200px;
+        width: 400px;
+        overflow: hidden;
+      }
+      .rainbow > div {
+        border: 1px solid hsl(0, 70%, 50%);
+        width: 400px;
+        height: 400px;
+        background: hsl(0, 70%, 50%);
+        border-radius: 50%;
+      }
+      .rainbow > div > div {
+        border: 1px solid hsl(60, 70%, 50%);
+        width: 380px;
+
+        height: 380px;
+        margin: 10px;
+        background: hsl(60, 70%, 50%);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div {
+        border: 1px solid hsl(120, 70%, 50%);
+        height: 360px;
+        margin: 10px;
+        background: hsl(120, 70%, 50%);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div {
+        border: 1px solid hsl(180, 70%, 50%);
+        height: 340px;
+        margin: 10px;
+        background: hsl(180, 70%, 50%);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div {
+        border: 1px solid hsl(240, 70%, 50%);
+        height: 320px;
+        margin: 10px;
+        background: hsl(240, 70%, 50%);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div {
+        border: 1px solid hsl(300, 70%, 50%);
+        height: 300px;
+        margin: 10px;
+        background: hsl(300, 70%, 50%);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div > div {
+        border: 1px solid hsl(330, 70%, 50%);
+        height: 280px;
+        margin: 10px;
+        background: hsl(330, 70%, 50%);
+        border-radius: 50%;
+      }
+      .rainbow > div > div > div > div > div > div > div > div {
+        border: 1px solid white;
+        height: 260px;
+        margin: 10px;
+        background: white;
+        border-radius: 50%;
+      }
+      body {
+        background: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rainbow">
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
